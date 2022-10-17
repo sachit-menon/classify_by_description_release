@@ -33,9 +33,9 @@ All hyperparameters can be modified in `load.py`.
 
 To generate example decisions and explanations as well as contrast from the CLIP decision, use the `show_from_indices` function in `load.py` after having run `main.py`. Details forthcoming.
 
-Example:
+Example displaying the predictions that differ between baseline CLIP and our method:
 ```
-show_from_indices(torch.arange(images.shape[0]), images, labels, descr_predictions, clip_predictions, image_description_similarity=image_description_similarity, image_labels_similarity=image_labels_similarity)
+show_from_indices(torch.where(descr_predictions != clip_predictions)[0], images, labels, descr_predictions, clip_predictions, image_description_similarity=image_description_similarity, image_labels_similarity=image_labels_similarity)
 ```
 
 Example outputs:
