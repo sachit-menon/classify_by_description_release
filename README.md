@@ -24,7 +24,7 @@ pip install git+https://github.com/modestyachts/ImageNetV2_pytorch
 
 Or using the provided `.yml` file.
 ```
-conda env create classbydesc.yml
+conda env create -f classbydesc.yml
 ```
 
 To reproduce accuracy results from the paper: edit the directories to match your local machine in `load.py` and set `hparams['dataset']` accordingly. Then simply run `python main.py`.
