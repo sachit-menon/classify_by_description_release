@@ -38,9 +38,6 @@ def modify_descriptor(descriptor, apply_changes):
 def load_gpt_descriptions(hparams, classes_to_load=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
     
-    # TODO: bad practice
-    global unmodify_dict
-    unmodify_dict = {}
     
     
     if classes_to_load is not None: 

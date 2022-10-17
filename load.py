@@ -19,9 +19,9 @@ from loading_helpers import *
 
 hparams = {}
 # hyperparameters
-hparams['project_name'] = "classification_by_description_scratch"
 
 hparams['model_size'] = "ViT-B/32" 
+# Options:
 # ['RN50',
 #  'RN101',
 #  'RN50x4',
@@ -68,14 +68,14 @@ hparams['label_after_text'] = ''
 hparams['seed'] = 1
 
 # TODO: fix this... defining global variable to be edited in a function, bad practice
-# unmodify_dict = {}
+unmodify_dict = {}
 
 # classes_to_load = openai_imagenet_classes
 hparams['descriptor_fname'] = 'descriptors'
 
-IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/'
-IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/'
-CUB_DIR = '/proj/vondrick/datasets/Birds-200-2011/'
+IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
+IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
+CUB_DIR = '/proj/vondrick/datasets/Birds-200-2011/' # REPLACE THIS WITH YOUR OWN PATH
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -182,8 +182,6 @@ def show_from_indices(indices, images, labels=None, predictions=None, prediction
             print("\n")
         
         if image_description_similarity is not None:
-            if hparams['aggregate_similarity'] == 'max' and predictions is not None: print_max_descriptor_similarity(image_description_similarity, index, predicted_label, predicted_label_name)
-            
             if labels is not None:
                 print_descriptor_similarity(image_description_similarity, index, true_label, true_label_name, "true")
                 print("\n")
@@ -250,3 +248,42 @@ def yield_misclassified_indices(images, labels, predictions, true_label_to_consi
     
     misclassified_indices = torch.arange(images.shape[0])[misclassified_indicators]
     return misclassified_indices
+
+
+from PIL import Image
+def predict_and_show_explanations(images, model, labels=None, description_encodings=None, label_encodings=None, device=None):
+    if type(images) == Image:
+        images = tfms(images)
+        
+    if images.device != device:
+        images = images.to(device)
+        labels = labels.to(device)
+
+    image_encodings = model.encode_image(images)
+    image_encodings = F.normalize(image_encodings)
+    
+    
+    
+    image_labels_similarity = image_encodings @ label_encodings.T
+    clip_predictions = image_labels_similarity.argmax(dim=1)
+    
+    n_classes = len(description_encodings)
+    image_description_similarity = [None]*n_classes
+    image_description_similarity_cumulative = [None]*n_classes
+    for i, (k, v) in enumerate(description_encodings.items()): # You can also vectorize this; it wasn't much faster for me
+        
+        
+        dot_product_matrix = image_encodings @ v.T
+        
+        image_description_similarity[i] = dot_product_matrix
+        image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i])
+        
+        
+    # create tensor of similarity means
+    cumulative_tensor = torch.stack(image_description_similarity_cumulative,dim=1)
+        
+    
+    descr_predictions = cumulative_tensor.argmax(dim=1)
+    
+    
+    show_from_indices(torch.arange(images.shape[0]), images, labels, descr_predictions, clip_predictions, image_description_similarity=image_description_similarity, image_labels_similarity=image_labels_similarity)
