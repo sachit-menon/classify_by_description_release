@@ -68,7 +68,7 @@ hparams['label_after_text'] = ''
 hparams['seed'] = 1
 
 # TODO: fix this... defining global variable to be edited in a function, bad practice
-unmodify_dict = {}
+# unmodify_dict = {}
 
 # classes_to_load = openai_imagenet_classes
 hparams['descriptor_fname'] = 'descriptors'
@@ -113,7 +113,7 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 
 print("Creating descriptors...")
 
-gpt_descriptions = load_gpt_descriptions(hparams, classes_to_load)
+gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
 label_to_classname = list(gpt_descriptions.keys())
 
 

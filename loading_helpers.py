@@ -37,7 +37,7 @@ def modify_descriptor(descriptor, apply_changes):
 
 def load_gpt_descriptions(hparams, classes_to_load=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
-    
+    unmodify_dict = {}
     
     
     if classes_to_load is not None: 
@@ -72,7 +72,7 @@ def load_gpt_descriptions(hparams, classes_to_load=None):
             # print an example the first time
             if i == 0: #verbose and 
                 print(f"\nExample description for class {k}: \"{gpt_descriptions[k][0]}\"\n")
-    return gpt_descriptions
+    return gpt_descriptions, unmodify_dict
 
 
 def seed_everything(seed: int):

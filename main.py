@@ -69,6 +69,8 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     lang_acc = lang_accuracy_metric(cumulative_tensor.softmax(dim=-1), labels)
     lang_acc_top5 = lang_accuracy_metric_top5(cumulative_tensor.softmax(dim=-1), labels)
     
+    break
+    
 
 print("\n")
 
