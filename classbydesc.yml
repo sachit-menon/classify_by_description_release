@@ -130,11 +130,11 @@ dependencies:
   - zstd=1.5.2=ha4553b6_0
   - pip:
     - charset-normalizer==2.0.4
-    - clip==1.0
+    - 'git+https://github.com/openai/CLIP.git@v1.0'
     - cycler==0.11.0
     - ftfy==6.1.1
     - idna==3.3
-    - imagenetv2-pytorch==0.1
+    - 'git+https://github.com/modestyachts/ImageNetV2_pytorch@v0.1.0'
     - munkres==1.1.4
     - packaging==21.3
     - pycparser==2.21

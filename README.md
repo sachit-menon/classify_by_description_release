@@ -17,8 +17,8 @@ First install the dependencies.
 Either manually:
 ```
 conda install pytorch torchvision -c pytorch
-pip install git+https://github.com/openai/CLIP.git
 conda install matplotlib torchmetrics -c conda-forge
+pip install git+https://github.com/openai/CLIP.git
 pip install git+https://github.com/modestyachts/ImageNetV2_pytorch
 ```
 
