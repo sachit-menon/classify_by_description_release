@@ -1,5 +1,6 @@
 # Visual Classification via Description from Large Language Models
 ## Sachit Menon, Carl Vondrick
+## <span style="color:red">*ICLR 2023, Notable Top 5% (Oral)*</span>
 
 [[Paper]](link)
 
@@ -43,3 +44,14 @@ Example outputs:
 
 ### Generating Your Own Descriptors
 See `generate_descriptors.py`. If you have a list of classes, you can pass it to the `obtain_descriptors_and_save` function to save a json of descriptors. (You will need to add your OpenAI API token.)
+
+
+## Citation
+```
+@article{menon2022visual,
+  author    = {Menon, Sachit and Vondrick, Carl},
+  title     = {Visual Classification via Description from Large Language Models},
+  journal   = {ICLR},
+  year      = {2023},
+}
+```
