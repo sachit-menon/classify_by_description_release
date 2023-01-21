@@ -1,0 +1,47 @@
+{
+    "annual crop land": [
+        "large, open fields",
+        "straight rows",
+        "different colors for different crops"
+    ],
+    "forest": [
+        "a large area of trees",
+        "green leaves"
+    ],
+    "brushland or shrubland": [
+        "an area of land with low-growing plants",
+        "little or no grass",
+        "dry conditions"
+    ],
+    "highway or road": [
+        "a long, straight, or gently curved line",
+        "typically has a smooth, paved surface"
+    ],
+    "industrial buildings or commercial buildings": [
+        "evidence of human activity"
+    ],
+    "pasture land": [
+        "green or brown vegetation",
+        "uninterrupted spaces"
+    ],
+    "permanent crop land": [
+        "large, rectangular fields",
+        "straight rows of crops",
+        "irrigation systems",
+        "green vegetation"
+    ],
+    "residential buildings or homes or apartments": [
+        "man-made structures",
+        "typically have a rectangular or square shape",
+        "may be clustered together in groups"
+    ],
+    "river": [
+        "a long, thin line of water",
+        "may be winding or straight",
+        "may be bordered by vegetation"
+    ],
+    "lake or sea": [
+        "large body of water",
+        "typically blue or green in color"
+    ]
+}

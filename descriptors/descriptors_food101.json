@@ -1,0 +1,698 @@
+{
+    "apple pie": [
+        "a pie dish",
+        "a crust",
+        "filling made of apples",
+        "sugar",
+        "cinnamon",
+        "nutmeg",
+        "butter",
+        "eggs"
+    ],
+    "baby back ribs": [
+        "a rack of ribs",
+        "usually pork or beef",
+        "each rib has a bone with meat attached",
+        "the meat is usually covered in barbecue sauce"
+    ],
+    "baklava": [
+        "a sweet pastry",
+        "made of layers of filo dough",
+        "filled with chopped nuts and sweetened with syrup or honey",
+        "usually cut into diamond or square shapes",
+        "served as a dessert or snack"
+    ],
+    "beef carpaccio": [
+        "red meat",
+        "thinly sliced",
+        "served raw or rare",
+        "garnished with herbs or spices",
+        "olive oil or lemon juice"
+    ],
+    "beef tartare": [
+        "red meat",
+        "chopped or ground",
+        "served raw",
+        "often with egg, capers, and onions",
+        "may be garnished with herbs or spices"
+    ],
+    "beet salad": [
+        "a bowl or plate of food",
+        "red and green vegetables",
+        "lettuce",
+        "other salad ingredients like croutons, cheese, or dressing",
+        "a fork or spoon"
+    ],
+    "beignets": [
+        "fried doughnut-shaped pastry",
+        "coated with powdered sugar",
+        "served hot"
+    ],
+    "bibimbap": [
+        "a bowl of rice",
+        "topped with vegetables, meat, and/or an egg",
+        "often served with gochujang (red chili pepper paste)",
+        "can be served with kimchi on the side"
+    ],
+    "bread pudding": [
+        "a dessert or sweet dish",
+        "made with bread or a bread-like product",
+        "typically contains eggs, milk, sugar, and spices",
+        "may be baked or steamed",
+        "often served with a sauce or topping"
+    ],
+    "breakfast burrito": [
+        "a flour tortilla",
+        "eggs",
+        "cheese",
+        "meat",
+        "vegetables",
+        "salsa",
+        "hot sauce"
+    ],
+    "bruschetta": [
+        "a piece of bread",
+        "topped with olive oil, garlic, and tomatoes",
+        "often served as an appetizer"
+    ],
+    "caesar salad": [
+        "a salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing"
+    ],
+    "cannoli": [
+        "an Italian pastry",
+        "a tube-shaped shell",
+        "made of fried dough",
+        "filled with sweetened ricotta",
+        "chocolate chips",
+        "candied fruit",
+        "nuts"
+    ],
+    "caprese salad": [
+        "a salad made of tomatoes, mozzarella, and basil",
+        "red, white, and green colors",
+        "sliced or diced tomatoes",
+        "sliced or diced mozzarella",
+        "fresh basil leaves",
+        "olive oil",
+        "balsamic vinegar"
+    ],
+    "carrot cake": [
+        "cake with carrots",
+        "cream cheese frosting",
+        "often has nuts or raisins",
+        "may have a green garnish"
+    ],
+    "ceviche": [
+        "a dish of seafood",
+        "typically includes fish, shrimp, and/or squid",
+        "marinated in citrus juice",
+        "served with onions, peppers, and cilantro",
+        "may be garnished with avocado, lime, and/or chili peppers"
+    ],
+    "cheese plate": [
+        "a plate with several different kinds of cheese",
+        "a variety of crackers or bread",
+        "a knife for cutting the cheese",
+        "a spreader for spreading the cheese",
+        "a napkin or paper towel"
+    ],
+    "cheesecake": [
+        "a cake made with cheese",
+        "usually has a graham cracker or cookie crust",
+        "can be topped with fruit, whipped cream, or chocolate",
+        "may have a design on top made with icing or chocolate"
+    ],
+    "chicken curry": [
+        "a bowl or plate of food",
+        "curry is usually a yellow, orange, or red color",
+        "chunks of chicken",
+        "rice or noodles",
+        "vegetables",
+        "spices"
+    ],
+    "chicken quesadilla": [
+        "a flat, round tortilla",
+        "chicken",
+        "cheese",
+        "salsa",
+        "sour cream"
+    ],
+    "chicken wings": [
+        "chicken wings",
+        "fried",
+        "sauced",
+        "served with celery and blue cheese dressing"
+    ],
+    "chocolate cake": [
+        "a cake",
+        "chocolate flavor",
+        "frosting",
+        "decorations",
+        "candles (optional)"
+    ],
+    "chocolate mousse": [
+        "a chocolate mousse is a dessert made from chocolate, eggs, and cream,",
+        "it is usually served in a glass or cup,",
+        "it is smooth and creamy,",
+        "it may have a whipped cream topping,",
+        "it may be garnished with chocolate shavings or a cherry."
+    ],
+    "churros": [
+        "fried-dough pastry",
+        "coated in sugar",
+        "often served with chocolate sauce",
+        "long and thin",
+        "twisted or spiraled shape"
+    ],
+    "clam chowder": [
+        "a thick, creamy soup",
+        "usually contains potatoes, onions, and celery",
+        "may be white or red",
+        "typically contains clams, bacon, and/or seafood",
+        "may be garnished with parsley, thyme, or other herbs"
+    ],
+    "club sandwich": [
+        "a sandwich with multiple layers of meat, cheese, and vegetables",
+        "bread that is toasted or grilled",
+        "mayonnaise or another sauce",
+        "lettuce, tomato, and onion"
+    ],
+    "crab cakes": [
+        "a cake or patty made of crab meat",
+        "usually fried or baked",
+        "may be served with a sauce or dressing",
+        "may be garnished with vegetables or herbs"
+    ],
+    "creme brulee": [
+        "a dessert",
+        "a round, shallow dish",
+        "a smooth, custard-like filling",
+        "a hard, caramelized topping",
+        "a spoon"
+    ],
+    "croque madame": [
+        "a sandwich made of bread, ham, and cheese",
+        "the bread is usually toasted or grilled",
+        "the cheese is melted",
+        "a fried or poached egg is placed on top",
+        "served hot",
+        "garnished with parsley or other herbs"
+    ],
+    "cup cakes": [
+        "small, round cake",
+        "frosting on top",
+        "sprinkles or other decorations on top",
+        "a paper or plastic cupcake liner"
+    ],
+    "deviled eggs": [
+        "a hard-boiled egg",
+        "mayonnaise",
+        "mustard",
+        "vinegar",
+        "paprika",
+        "salt",
+        "pepper"
+    ],
+    "donuts": [],
+    "dumplings": [
+        "small, round, and filled with meat or vegetables",
+        "wrapped in a thin dough",
+        "boiled, steamed, or fried",
+        "served with a dipping sauce",
+        "can be made with different fillings"
+    ],
+    "edamame": [
+        "a pod with small, green beans inside",
+        "a stem attached to the pod",
+        "leaves attached to the stem",
+        "a plant with a woody stem",
+        "a plant that is a member of the pea family"
+    ],
+    "eggs benedict": [
+        "a dish composed of an English muffin, ham, a poached egg, and hollandaise sauce",
+        "the egg is usually cooked so that the yolk is runny",
+        "may be garnished with parsley, paprika, or other herbs"
+    ],
+    "escargots": [
+        "small, snail-like creature",
+        "brown, grey, or white",
+        "slimy body",
+        "long, spiral shell",
+        "two feelers on head",
+        "two pairs of tentacles"
+    ],
+    "falafel": [
+        "a deep-fried ball or patty",
+        "made from ground chickpeas, fava beans, or both",
+        "usually served in a pita or wrap",
+        "topped with salads, pickles, and sauces"
+    ],
+    "filet mignon": [
+        "a cut of beef",
+        "usually served as a steak",
+        "tender and lean",
+        "can be grilled, pan-fried, or roasted",
+        "typically served with a sauce or vegetables",
+        "four-limbed animal",
+        "fur",
+        "whiskers",
+        "a tail",
+        "pointy ears"
+    ],
+    "fish and chips": [
+        "a plate of food",
+        "fried fish",
+        "french fries",
+        "ketchup or vinegar"
+    ],
+    "foie gras": [
+        "a type of French cuisine",
+        "made from the liver of a duck or goose",
+        "can be served as a pate or mousse",
+        "often served with a sweet or savory sauce",
+        "may be garnished with fruit, nuts, or herbs"
+    ],
+    "french fries": [],
+    "french onion soup": [
+        "a bowl of soup",
+        "onions in the soup",
+        "a bread crumb topping",
+        "melted cheese on top",
+        "a spoon for eating the soup"
+    ],
+    "french toast": [
+        "bread that has been soaked in egg and milk",
+        "then fried in a pan",
+        "often served with butter, syrup, or fruit",
+        "four-limbed animal",
+        "fur",
+        "whiskers",
+        "a tail",
+        "pointy ears",
+        "big, round eyes"
+    ],
+    "fried calamari": [],
+    "fried rice": [
+        "a dish made of rice that has been stir-fried in a wok or a frying pan",
+        "can be made with various ingredients like meats, vegetables, and eggs",
+        "usually has a brown or yellowish color",
+        "can be served with soy sauce, chili sauce, or other condiments"
+    ],
+    "frozen yogurt": [
+        "a cup or cone of frozen yogurt",
+        "toppings such as fruits, nuts, or candy",
+        "a spoon",
+        "a napkin"
+    ],
+    "garlic bread": [
+        "a loaf of bread",
+        "with garlic cloves",
+        "and butter or olive oil",
+        "often with parsley or other herbs",
+        "served hot or cold"
+    ],
+    "gnocchi": [
+        "small, round, and thick",
+        "made from potato, flour, and egg",
+        "can be boiled, baked, or fried",
+        "served with sauce or vegetables"
+    ],
+    "greek salad": [
+        "a mix of greens, such as lettuce, spinach, and arugula",
+        "cherry tomatoes",
+        "Kalamata olives",
+        "feta cheese",
+        "red onion",
+        "cucumber",
+        "green bell pepper",
+        "olive oil",
+        "red wine vinegar",
+        "oregano",
+        "salt",
+        "pepper"
+    ],
+    "grilled cheese sandwich": [
+        "two slices of bread",
+        "cheese melted in between the slices of bread",
+        "butter on the bread",
+        "grill marks on the bread"
+    ],
+    "grilled salmon": [
+        "a fish",
+        "pink or red-orange",
+        "fleshy with scales",
+        "a grilled or cooked appearance",
+        "may be served with lemon, butter, or other sauces"
+    ],
+    "guacamole": [
+        "a green, brown, or black color",
+        "a smooth or textured surface",
+        "a dip or spread",
+        "made from avocados, onions, tomatoes, and other ingredients",
+        "often served with chips, tacos, or burritos"
+    ],
+    "gyoza": [
+        "a small, round, flat dumpling",
+        "made of wheat flour dough and filled with meat and vegetables",
+        "usually served steamed, boiled, or fried",
+        "can be served with dipping sauce"
+    ],
+    "hamburger": [
+        "a round, flat bun",
+        "a cooked beef patty",
+        "lettuce, tomato, onion, pickles, cheese, and/or other condiments",
+        "ketchup, mustard, and/or other sauces"
+    ],
+    "hot and sour soup": [
+        "a bowl of soup",
+        "steam coming off the soup",
+        "chunks of vegetables or meat in the soup",
+        "a sour and spicy smell",
+        "a spoon for eating the soup"
+    ],
+    "hot dog": [
+        "a long, thin, cylindrical shape",
+        "a smooth surface",
+        "a bun around it",
+        "mustard or ketchup on it"
+    ],
+    "huevos rancheros": [
+        "a dish typically consisting of a fried egg, a tortilla, and beans",
+        "can also include cheese, avocado, salsa, and sour cream",
+        "the egg is usually sunny side up or over easy",
+        "served with rice and beans"
+    ],
+    "hummus": [
+        "a smooth, thick paste",
+        "made from chickpeas, tahini, olive oil, and lemon juice",
+        "can be flavored with garlic, cumin, paprika, or other spices",
+        "typically served with pita bread, vegetables, or crackers",
+        "can be used as a dip or spread"
+    ],
+    "ice cream": [
+        "a sweet, creamy food",
+        "made from milk, cream, and sugar",
+        "can be flavored with fruit, nuts, chocolate, or other ingredients",
+        "served cold",
+        "can be soft or hard"
+    ],
+    "lasagna": [
+        "a large, rectangular dish",
+        "multiple layers of pasta, sauce, and cheese",
+        "typically red or brown in color",
+        "may have meat or vegetables",
+        "served hot"
+    ],
+    "lobster bisque": [
+        "a creamy, orange soup",
+        "chunks of lobster meat",
+        "a garnish of green onions or parsley",
+        "a dollop of sour cream or cr\u00e8me fraiche",
+        "a drizzle of olive oil",
+        "a sprinkle of paprika"
+    ],
+    "lobster roll sandwich": [
+        "a sandwich with a lobster tail and claw meat filling",
+        "served on a toasted bun",
+        "mayonnaise, celery, and lemon juice often added to the filling",
+        "can be served cold or hot",
+        "found primarily in New England"
+    ],
+    "macaroni and cheese": [
+        "a bowl or dish of food",
+        "yellow, orange, or white",
+        "noodles and cheese",
+        "a fork or spoon",
+        "a napkin"
+    ],
+    "macarons": [
+        "a small, round, flat cookie",
+        "made of two discs of almond meringue with a filling in between",
+        "the filling is usually flavored with chocolate, coffee, lemon, or raspberry",
+        "the cookies are often brightly colored",
+        "they are usually served in pairs"
+    ],
+    "miso soup": [
+        "a bowl of soup",
+        "a light brown or tan color",
+        "chunks of tofu",
+        "green onions",
+        "seaweed",
+        "a spoon"
+    ],
+    "mussels": [],
+    "nachos": [
+        "a dish of tortilla chips",
+        "covered in cheese",
+        "with various toppings such as meat, vegetables, and sauce"
+    ],
+    "omelette": [
+        "a cooked egg dish",
+        "usually made with eggs, milk, and butter",
+        "can include other ingredients like cheese, ham, or vegetables",
+        "typically served for breakfast or brunch",
+        "can be made in a variety of shapes and sizes",
+        "can be served with a variety of toppings"
+    ],
+    "onion rings": [
+        "a deep-fried food",
+        "a ring-shaped",
+        "battered or breaded",
+        "onion as the main ingredient",
+        "served with a dipping sauce"
+    ],
+    "oysters": [],
+    "pad thai": [
+        "a type of Asian noodle dish",
+        "noodles are usually made from rice, wheat, or egg",
+        "can be stir-fried, boiled, or served in a soup",
+        "often contains vegetables, protein, and a sauce",
+        "may be garnished with peanuts, cilantro, lime, and bean sprouts"
+    ],
+    "paella": [
+        "a large, flat, round dish",
+        "typically made of metal or ceramic",
+        "food is cooked and served in the same dish",
+        "typically has rice, seafood, and vegetables",
+        "can be made in different colors, depending on the ingredients used"
+    ],
+    "pancakes": [
+        "a stack of pancakes",
+        "each pancake is round and flat",
+        "pancakes are usually served with syrup, butter, and/or fruit"
+    ],
+    "panna cotta": [
+        "a dessert made with cream and gelatin",
+        "typically served in a small, round dish",
+        "can be decorated with fruit, sauce, or other toppings",
+        "has a smooth, creamy texture",
+        "can be made in a variety of flavors"
+    ],
+    "peking duck": [
+        "a waterfowl with a long neck and small head",
+        "a reddish-brown plumage with a white chest and belly",
+        "webbed feet",
+        "a flat bill",
+        "a long, broad tail",
+        "a black cap on the head"
+    ],
+    "pho": [
+        "a type of Vietnamese noodle soup",
+        "typically made with beef or chicken broth",
+        "rice noodles",
+        "herbs and spices",
+        "bean sprouts",
+        "lime wedges",
+        "chili peppers",
+        "protein (beef, chicken, shrimp, etc.)",
+        "served with a side of hoisin and Sriracha sauce"
+    ],
+    "pizza": [
+        "a round, flatbread crust",
+        "a sauce, typically red",
+        "toppings, such as cheese, vegetables, and meat",
+        "a circumference of crust that is thicker than the rest of the pizza",
+        "a diameter of about 10-12 inches"
+    ],
+    "pork chop": [
+        "a piece of meat",
+        "usually pink or white",
+        "a bone in the center",
+        "fat around the edges",
+        "may be grilled, baked, or fried",
+        "served with a side of vegetables or rice"
+    ],
+    "poutine": [
+        "a dish of french fries",
+        "covered in cheese curds",
+        "topped with gravy"
+    ],
+    "prime rib": [
+        "a large, roasted piece of meat",
+        "typically served on a platter with vegetables",
+        "the meat is usually pink or red in the center, with a layer of fat on top",
+        "the meat is surrounded by a bone",
+        "four-limbed animal",
+        "typically covered in fur"
+    ],
+    "pulled pork sandwich": [
+        "a sandwich with a filling of pulled pork",
+        "the pork is usually cooked with barbecue sauce",
+        "the sandwich may also include coleslaw or other toppings",
+        "the sandwich is usually served on a bun or roll"
+    ],
+    "ramen": [
+        "a bowl of noodles",
+        "a broth",
+        "vegetables",
+        "meat",
+        "spices"
+    ],
+    "ravioli": [
+        "a small, round, pasta noodle",
+        "filled with meat, cheese, or vegetables",
+        "covered in sauce",
+        "served with a fork and knife"
+    ],
+    "red velvet cake": [
+        "cake",
+        "red",
+        "velvet",
+        "frosting",
+        "decorations"
+    ],
+    "risotto": [
+        "a creamy, starchy dish",
+        "made with rice",
+        "can be made with various ingredients like vegetables, meats, or seafood",
+        "often served as a main course",
+        "can be garnished with cheese, herbs, or lemon"
+    ],
+    "samosa": [
+        "a triangular or cone-shaped pastry",
+        "filled with savory ingredients",
+        "fried or baked",
+        "served hot or cold",
+        "often eaten as a snack",
+        "four-limbed animal",
+        "fur-covered body",
+        "pointed ears",
+        "whiskers",
+        "a long tail",
+        "sharp"
+    ],
+    "sashimi": [
+        "raw, sliced fish",
+        "often served with soy sauce and wasabi",
+        "can be made with salmon, tuna, or other fish",
+        "may be garnished with ginger, daikon, or other vegetables",
+        "can be served with rice"
+    ],
+    "scallops": [
+        "a marine invertebrate",
+        "bivalve mollusc",
+        "two hinged, convex shells",
+        "a soft body with frills around the edge",
+        "a muscular foot used for locomotion and feeding",
+        "siphons for drawing in water"
+    ],
+    "seaweed salad": [
+        "a mix of green, brown, and red seaweed",
+        "shredded carrots",
+        "sesame seeds",
+        "served in a bowl or on a plate",
+        "often with soy sauce or vinegar"
+    ],
+    "shrimp and grits": [
+        "a bowl or plate of food",
+        "shrimp",
+        "grits",
+        "a sauce or gravy",
+        "vegetables",
+        "spices"
+    ],
+    "spaghetti bolognese": [
+        "a bowl or plate of spaghetti noodles",
+        "a red or brown meat sauce",
+        "shredded or grated cheese on top",
+        "green herbs"
+    ],
+    "spaghetti carbonara": [
+        "a type of pasta dish",
+        "usually made with spaghetti",
+        "can be made with other types of pasta",
+        "a sauce made with eggs, cheese, and bacon",
+        "can also include onion, garlic, and black pepper",
+        "served with a sprinkle of parsley"
+    ],
+    "spring rolls": [
+        "cylindrical shape",
+        "light brown",
+        "translucent",
+        "filled with vegetables",
+        "served with dipping sauce"
+    ],
+    "steak": [
+        "red or brown",
+        "meat",
+        "a grilled or cooked surface",
+        "a juicy or fatty appearance",
+        "a bone or gristle",
+        "a knife and fork"
+    ],
+    "strawberry shortcake": [
+        "a cake or biscuit with strawberries and cream",
+        "red, white, and green",
+        "a shortcake or biscuit base",
+        "whipped cream or icing",
+        "fresh or frozen strawberries"
+    ],
+    "sushi": [
+        "Japanese dish",
+        "sushi is typically made with raw fish, seafood, or vegetables",
+        "sushi is often served with soy sauce, wasabi, and pickled ginger",
+        "sushi is typically rolled in nori (seaweed)",
+        "sushi can be served in a variety of ways, including nigiri (sliced fish on top of rice), maki (rolled sushi), and temaki (hand-rolled sushi)"
+    ],
+    "tacos": [
+        "a soft or hard taco shell",
+        "ground beef, chicken, or pork",
+        "shredded lettuce",
+        "diced tomatoes",
+        "grated cheese",
+        "sour cream",
+        "salsa"
+    ],
+    "takoyaki": [
+        "a small, round ball of batter",
+        "filled with octopus, vegetables, and/or other ingredients",
+        "grilled or fried",
+        "served with a sauce and/or other toppings",
+        "on a skewer or in a small, round container"
+    ],
+    "tiramisu": [
+        "a dessert",
+        "coffee-flavored",
+        "layered",
+        "made with ladyfingers",
+        "mascarpone cheese",
+        "cocoa powder"
+    ],
+    "tuna tartare": [
+        "a small, round dish",
+        "pink or red tuna",
+        "avocado",
+        "cucumber",
+        "sesame seeds",
+        "scallions",
+        "soy sauce",
+        "wasabi"
+    ],
+    "waffles": [
+        "a breakfast food",
+        "a round or square shape",
+        "a grid pattern",
+        "syrup or fruit toppings",
+        "whipped cream"
+    ]
+}

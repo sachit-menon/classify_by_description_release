@@ -1,0 +1,289 @@
+{
+    "banded": [
+        "a repeating pattern of light and dark bands",
+        "the bands are of different widths",
+        "the bands may be of different colors",
+        "the bands may be curved or straight",
+        "the bands may be parallel or intersecting"
+    ],
+    "blotchy": [
+        "an uneven or mottled surface",
+        "a variety of colors or shades",
+        "a raised or bumpy texture",
+        "a matte finish"
+    ],
+    "braided": [
+        "three or more strands of material woven together",
+        "a tight, interlocking pattern"
+    ],
+    "bubbly": [
+        "small, round, and raised bumps",
+        "a smooth or glossy surface",
+        "a three-dimensional appearance",
+        "a light-reflecting quality"
+    ],
+    "bumpy": [
+        "an uneven surface",
+        "raised or indented areas",
+        "a rough or bumpy feel"
+    ],
+    "chequered": [
+        "a repeating pattern of squares or rectangles",
+        "alternating light and dark colors",
+        "sharp, defined lines between the squares or rectangles"
+    ],
+    "cobwebbed": [
+        "a web-like pattern",
+        "made of thin, silky strands",
+        "often found in dark, damp places",
+        "can be sticky to the touch",
+        "can be difficult to remove once entangled"
+    ],
+    "cracked": [
+        "a surface with cracks",
+        "the cracks may be straight or curved",
+        "the cracks may be of different sizes",
+        "the cracks may be close together or far apart",
+        "the cracks may be deep or shallow",
+        "the cracks may be filled with dirt or debris"
+    ],
+    "crosshatched": [
+        "a series of parallel lines that intersect to form a grid",
+        "the lines may be of different thicknesses",
+        "the lines may be of different colors",
+        "the texture may be regular or irregular",
+        "the texture may be applied to a surface or object"
+    ],
+    "crystalline": [
+        "a repeating pattern of shapes",
+        "sharp edges",
+        "a glossy or shiny surface",
+        "a transparent or translucent appearance",
+        "a three-dimensional structure"
+    ],
+    "dotted": [
+        "a series of small, round dots",
+        "evenly spaced",
+        "can be of any color",
+        "may be on a background of any color",
+        "may be in a regular or irregular pattern"
+    ],
+    "fibrous": [
+        "closeup view",
+        "many small, thin strands",
+        "light reflecting off of strands",
+        "strands of different colors",
+        "a textured surface"
+    ],
+    "flecked": [
+        "small, irregularly shaped pieces",
+        "a variety of colors",
+        "a rough or bumpy surface"
+    ],
+    "freckled": [
+        "small, round spots",
+        "evenly distributed",
+        "same color as surrounding skin",
+        "darker than surrounding skin"
+    ],
+    "frilly": [
+        "intricate, lacy patterns",
+        "delicate and often transparent",
+        "light and airy",
+        "can be made of various materials, including paper, fabric, or metal"
+    ],
+    "gauzy": [
+        "a thin, translucent fabric",
+        "a light, airy feel",
+        "a delicate or lacy appearance"
+    ],
+    "grid": [
+        "a repeating pattern of squares or rectangles",
+        "straight lines forming a consistent grid",
+        "evenly spaced lines and intersections",
+        "a consistent color or tone throughout"
+    ],
+    "grooved": [
+        "a series of parallel lines",
+        "a repeating pattern",
+        "a raised or indented surface"
+    ],
+    "honeycombed": [
+        "a repeating pattern of hexagonal shapes",
+        "a honey-like color",
+        "a smooth, glossy surface"
+    ],
+    "interlaced": [
+        "a repeating pattern of light and dark lines",
+        "the lines are usually perpendicular to each other",
+        "the lines may be of different thicknesses",
+        "the lines may be of different colors"
+    ],
+    "knitted": [
+        "small, interconnected loops",
+        "a variety of colors",
+        "a three-dimensional appearance"
+    ],
+    "lacelike": [
+        "intricate, detailed pattern",
+        "often made of lace or other delicate material",
+        "can be white, cream, or other light colors",
+        "often used for decoration",
+        "green leaves",
+        "stem",
+        "roots",
+        "flowers (optional)",
+        "fruit (optional)"
+    ],
+    "lined": [
+        "a series of parallel lines",
+        "can be straight or curved",
+        "may be of different colors",
+        "may be of different widths",
+        "may be of different thicknesses"
+    ],
+    "marbled": [
+        "a swirl or whorl pattern",
+        "two or more colors",
+        "a glossy or shiny surface",
+        "a smooth or textured surface"
+    ],
+    "matted": [
+        "a surface with a raised or relief pattern",
+        "a surface that is not smooth",
+        "a surface with a lot of texture",
+        "a surface that is not glossy or shiny"
+    ],
+    "meshed": [
+        "a repeating pattern of interlocking shapes",
+        "a regular, geometric shape",
+        "a consistent size and spacing between shapes",
+        "a symmetrical or nearly symmetrical design",
+        "straight or curved lines",
+        "a solid color or a limited color palette"
+    ],
+    "paisley": [
+        "a repeating pattern of curved shapes",
+        "usually brightly colored",
+        "often with a floral or geometric design"
+    ],
+    "perforated": [
+        "a series of small, evenly spaced holes",
+        "a surface with a regular pattern of indentations",
+        "a material with a porous or spongy appearance"
+    ],
+    "pitted": [
+        "a surface with small, shallow depressions",
+        "a rough or bumpy surface",
+        "a matte or dull finish"
+    ],
+    "pleated": [
+        "a series of parallel, evenly spaced folds or creases",
+        "fabric that is gathered or puffed up in between the folds",
+        "a smooth, flat surface on either side of the folds"
+    ],
+    "polka-dotted": [
+        "a series of small, round dots",
+        "evenly spaced",
+        "usually on a light background",
+        "can be any color",
+        "may be on a variety of surfaces"
+    ],
+    "porous": [
+        "small, irregular holes or pores",
+        "a rough or spongy surface",
+        "light and dark areas where the pores are more or less dense"
+    ],
+    "potholed": [
+        "a road or street with many small holes",
+        "the surface is bumpy and uneven",
+        "the holes are usually circular or oval-shaped",
+        "the holes may be filled with water or debris",
+        "the surrounding area may be cracked or damaged"
+    ],
+    "scaly": [
+        "a series of overlapping plates or scales",
+        "a dry, rough, or bumpy surface",
+        "a dull or matte finish",
+        "a lack of luster or shine"
+    ],
+    "smeared": [
+        "blurred or out of focus",
+        "colors running together",
+        "a smeared or streaked appearance"
+    ],
+    "spiralled": [
+        "a repeating pattern of interlocking curves",
+        "a three-dimensional appearance",
+        "a raised or embossed surface",
+        "a glossy or matte finish"
+    ],
+    "sprinkled": [
+        "small, uniform dots",
+        "evenly spaced",
+        "same size and shape",
+        "can be a variety of colors",
+        "may be shimmery or iridescent"
+    ],
+    "stained": [
+        "a discolored area",
+        "a raised or bumpy surface",
+        "a change in color or opacity",
+        "a change in texture"
+    ],
+    "stratified": [
+        "a series of layers",
+        "each layer is of a different material",
+        "the layers are parallel to each other",
+        "the layers may be of different thicknesses",
+        "the layers may be of different colors",
+        "the layers may have different textures"
+    ],
+    "striped": [
+        "alternating light and dark bands",
+        "regular, repeating pattern",
+        "can be horizontal, vertical, or diagonal",
+        "may be of different widths",
+        "may be of different colors"
+    ],
+    "studded": [
+        "a series of raised bumps or ridges",
+        "evenly spaced",
+        "may be arranged in a pattern",
+        "may be of different colors",
+        "may be of different sizes"
+    ],
+    "swirly": [
+        "a spiral or whorl pattern",
+        "a smooth or glossy surface",
+        "a light or dark color"
+    ],
+    "veined": [
+        "a repeating pattern of lines or shapes",
+        "a contrast between light and dark areas",
+        "a three-dimensional appearance"
+    ],
+    "waffled": [
+        "a series of raised, parallel lines",
+        "a honeycomb or grid-like appearance",
+        "a three-dimensional texture",
+        "a rough or bumpy surface"
+    ],
+    "woven": [
+        "a series of parallel, criss-crossing lines",
+        "a tight, interlocking pattern",
+        "a fabric or material with a textile weave"
+    ],
+    "wrinkled": [
+        "a surface with raised bumps or ridges",
+        "a surface with indentations or valleys",
+        "a surface with a complex, irregular pattern",
+        "a surface that appears dry or dehydrated"
+    ],
+    "zigzagged": [
+        "a repeating pattern of sharp angles",
+        "usually black and white",
+        "can be created with lines, shapes, or colors",
+        "often used to create a sense of movement or energy"
+    ]
+}

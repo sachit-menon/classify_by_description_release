@@ -40,3 +40,6 @@ show_from_indices(torch.where(descr_predictions != clip_predictions)[0], images,
 
 Example outputs:
 ![[figs]](./figs/explanations.png)
+
+### Generating Your Own Descriptors
+See `generate_descriptors.py`. If you have a list of classes, you can pass it to the `obtain_descriptors_and_save` function to save a json of descriptors. (You will need to add your OpenAI API token.)

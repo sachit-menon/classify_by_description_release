@@ -34,7 +34,7 @@ hparams['model_size'] = "ViT-B/32"
 hparams['dataset'] = 'imagenet'
 
 hparams['batch_size'] = 64*10
-hparams['device'] = "cuda:2" if torch.cuda.is_available() else "cpu"
+hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
 hparams['category_name_inclusion'] = 'prepend' #'append' 'prepend'
 
 hparams['apply_descriptor_modification'] = True
