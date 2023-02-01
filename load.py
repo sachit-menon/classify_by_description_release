@@ -59,11 +59,11 @@ hparams['label_before_text'] = ""
 hparams['between_text'] = ', '
 # hparams['between_text'] = ' '
 # hparams['between_text'] = ''
-hparams['after_text'] = ''
+hparams['after_text'] = '.'
 hparams['unmodify'] = True
 # hparams['after_text'] = '.'
 # hparams['after_text'] = ' which is a type of bird.'
-hparams['label_after_text'] = ''
+hparams['label_after_text'] = '.'
 # hparams['label_after_text'] = ' which is a type of bird.'
 hparams['seed'] = 1
 
@@ -71,7 +71,7 @@ hparams['seed'] = 1
 # unmodify_dict = {}
 
 # classes_to_load = openai_imagenet_classes
-hparams['descriptor_fname'] = 'descriptors'
+hparams['descriptor_fname'] = None
 
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
@@ -91,13 +91,13 @@ if hparams['dataset'] == 'imagenet':
         classes_to_load = None
     
         if hparams['descriptor_fname'] is None:
-            hparams['descriptor_fname'] = 'descriptors'
+            hparams['descriptor_fname'] = 'descriptors_imagenet'
         
     elif hparams['dataset'] == 'imagenetv2':
         hparams['data_dir'] = pathlib.Path(IMAGENETV2_DIR)
         dataset = ImageNetV2(location=hparams['data_dir'], transform=tfms)
         classes_to_load = openai_imagenet_classes
-        hparams['descriptor_fname'] = 'descriptors'
+        hparams['descriptor_fname'] = 'descriptors_imagenet'
         dataset.classes = classes_to_load
 
 elif hparams['dataset'] == 'cub':

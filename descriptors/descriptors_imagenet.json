@@ -218,12 +218,12 @@
         "smooth, moist skin",
         "four legs that are each about the same length"
     ],
-    "newt": [
-        "a small, tailless amphibian",
-        "a smooth, moist body",
-        "small, lidless eyes",
-        "external gills",
-        "four legs",
+    "eft": [
+        "a small, brightly colored salamander",
+        "typically orange or red with black spots",
+        "smooth, moist skin",
+        "two rows of large, plate-like scales",
+        "four toes on each foot",
         "a long, slender tail"
     ],
     "spotted salamander": [
@@ -4727,14 +4727,6 @@
     ],
     "hair spray": [
         "aerosable product",
-        "aerosable product",
-        "aerosable product",
-        "aerosable product",
-        "aerosable product",
-        "aerosable product",
-        "aerosable product",
-        "aerosable product",
-        "aerosable product",
         "consumable product"
     ],
     "half-track": [
@@ -5129,13 +5121,12 @@
         "a post or pedestal to support the mailbox",
         "a address plate with the numbers or name of the recipient"
     ],
-    "tights": [
-        "an article of clothing",
-        "typically made of nylon, spandex, or a similar material",
-        "often brightly colored or patterned",
-        "usually worn by women or girls",
-        "covers the legs from the waist to the feet",
-        "may have a waistband or be footless"
+    "maillot": [
+        "one-piece swimsuit",
+        "usually brightly colored",
+        "often has a pattern",
+        "often has a low neckline and high leg openings",
+        "straps that go over the shoulder"
     ],
     "one-piece bathing suit": [
         "a garment that covers the body from the neck to the legs",
