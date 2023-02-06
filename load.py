@@ -31,7 +31,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'imagenet'
+hparams['dataset'] = 'cub'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
@@ -59,11 +59,11 @@ hparams['label_before_text'] = ""
 hparams['between_text'] = ', '
 # hparams['between_text'] = ' '
 # hparams['between_text'] = ''
-hparams['after_text'] = '.'
+hparams['after_text'] = ''
 hparams['unmodify'] = True
 # hparams['after_text'] = '.'
 # hparams['after_text'] = ' which is a type of bird.'
-hparams['label_after_text'] = '.'
+hparams['label_after_text'] = ''
 # hparams['label_after_text'] = ' which is a type of bird.'
 hparams['seed'] = 1
 
@@ -92,6 +92,7 @@ if hparams['dataset'] == 'imagenet':
     
         if hparams['descriptor_fname'] is None:
             hparams['descriptor_fname'] = 'descriptors_imagenet'
+        hparams['after_text'] = hparams['label_after_text'] = '.'
         
     elif hparams['dataset'] == 'imagenetv2':
         hparams['data_dir'] = pathlib.Path(IMAGENETV2_DIR)
