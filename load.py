@@ -75,7 +75,7 @@ hparams['descriptor_fname'] = None
 
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
-CUB_DIR = '/proj/vondrick/datasets/Birds-200-2011/' # REPLACE THIS WITH YOUR OWN PATH
+CUB_DIR = '/home/y/yangxi/proj/visualrep/dataset/CUB_200_2011/' # REPLACE THIS WITH YOUR OWN PATH
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])

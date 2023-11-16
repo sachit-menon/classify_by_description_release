@@ -80,6 +80,8 @@ accuracy_logs["Total Description-based Top-5 Accuracy: "] = 100*lang_accuracy_me
 accuracy_logs["Total CLIP-Standard Top-1 Accuracy: "] = 100*clip_accuracy_metric.compute().item()
 accuracy_logs["Total CLIP-Standard Top-5 Accuracy: "] = 100*clip_accuracy_metric_top5.compute().item()
 
+#show_from_indices(torch.where(descr_predictions != clip_predictions)[0], images, labels, descr_predictions, clip_predictions, image_description_similarity=image_description_similarity, image_labels_similarity=image_labels_similarity)
+
 # print the dictionary
 print("\n")
 for key, value in accuracy_logs.items():
