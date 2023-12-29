@@ -2,7 +2,8 @@
 ## Sachit Menon, Carl Vondrick
 ## <span style="color:red">*ICLR 2023, Notable Top 5% (Oral)*</span>
 
-[[Paper]](link)
+[[Paper]](https://arxiv.org/pdf/2210.07183.pdf)
+[[ArXiV]](https://arxiv.org/abs/2210.07183)
 
 ## Approach
 
