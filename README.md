@@ -3,7 +3,7 @@
 ## <span style="color:red">*ICLR 2023, Notable Top 5% (Oral)*</span>
 
 [[Paper]](https://arxiv.org/pdf/2210.07183.pdf)
-[[ArXiV]](https://arxiv.org/abs/2210.07183)
+[[arXiv]](https://arxiv.org/abs/2210.07183)
 
 ## Approach
 
