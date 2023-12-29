@@ -8,7 +8,7 @@ import pathlib
 
 from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
-from torchvision.datasets import ImageNet, ImageFolder
+from torchvision.datasets import ImageNet, ImageFolder, Places365
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
 from datasets import _transform, CUBDataset
 from collections import OrderedDict
@@ -76,6 +76,12 @@ hparams['descriptor_fname'] = None
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
 CUB_DIR = '/proj/vondrick/datasets/Birds-200-2011/' # REPLACE THIS WITH YOUR OWN PATH
+EUROSAT_DIR = ''
+FOOD101_DIR = ''
+PETS_DIR = ''
+DTD_DIR = ''
+
+
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -107,6 +113,44 @@ elif hparams['dataset'] == 'cub':
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_cub'
+    
+elif hparams['dataset'] == 'eurosat':
+    from extra_datasets.patching.eurosat import EuroSATVal
+    hparams['data_dir'] = pathlib.Path(EUROSAT_DIR)
+    dataset = EuroSATVal(location=hparams['data_dir'], preprocess=tfms)
+    dataset = dataset.test_dataset
+    hparams['descriptor_fname'] = 'descriptors_eurosat'
+    classes_to_load = None
+    
+elif hparams['dataset'] == 'places365':
+    hparams['data_dir'] = pathlib.Path('/proj/vondrick4/datasets/places365/places365_standard/')
+    # dataset = Places365(hparams['data_dir'], split='val', small=True, download=False, transform=tfms)
+    dsclass = ImageFolder
+    dataset = dsclass(hparams['data_dir'] / 'val', transform=tfms)
+    hparams['descriptor_fname'] = 'descriptors_places365'
+    
+elif hparams['dataset'] == 'food101':
+    hparams['data_dir'] = pathlib.Path(FOOD101_DIR)
+    dsclass = ImageFolder
+    dataset = dsclass(hparams['data_dir'] / 'test', transform=tfms)
+    hparams['descriptor_fname'] = 'descriptors_food101'
+    classes_to_load = None
+
+elif hparams['dataset'] == 'pets':
+    hparams['data_dir'] = pathlib.Path(PETS_DIR)
+    dsclass = ImageFolder
+    dataset = dsclass(hparams['data_dir'] / 'test', transform=tfms)
+    hparams['descriptor_fname'] = 'descriptors_pets'
+    classes_to_load = None
+    
+elif hparams['dataset'] == 'dtd':
+    hparams['data_dir'] = pathlib.Path(DTD_DIR)
+    dataset = ImageFolder(hparams['data_dir'] / 'val', transform=tfms)
+    hparams['descriptor_fname'] = 'descriptors_dtd'
+    classes_to_load = None
+
+    
+
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
