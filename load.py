@@ -114,6 +114,8 @@ elif hparams['dataset'] == 'cub':
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_cub'
     
+# I recommend using VISSL https://github.com/facebookresearch/vissl/blob/main/extra_scripts/README.md to download these
+    
 elif hparams['dataset'] == 'eurosat':
     from extra_datasets.patching.eurosat import EuroSATVal
     hparams['data_dir'] = pathlib.Path(EUROSAT_DIR)
