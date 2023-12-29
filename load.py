@@ -80,7 +80,7 @@ EUROSAT_DIR = ''
 FOOD101_DIR = ''
 PETS_DIR = ''
 DTD_DIR = ''
-
+PLACES_DIR = ''
 
 
 # PyTorch datasets
@@ -123,7 +123,7 @@ elif hparams['dataset'] == 'eurosat':
     classes_to_load = None
     
 elif hparams['dataset'] == 'places365':
-    hparams['data_dir'] = pathlib.Path('/proj/vondrick4/datasets/places365/places365_standard/')
+    hparams['data_dir'] = pathlib.Path(PLACES_DIR)
     # dataset = Places365(hparams['data_dir'], split='val', small=True, download=False, transform=tfms)
     dsclass = ImageFolder
     dataset = dsclass(hparams['data_dir'] / 'val', transform=tfms)
